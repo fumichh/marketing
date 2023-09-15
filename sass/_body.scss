@@ -1,0 +1,62 @@
+.body {
+    &__img1 {
+        @media screen and (max-width:480) {}
+    }
+
+    &__h1 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 65px;
+        /* or 155% */
+
+        letter-spacing: 0.02em;
+
+        color: #253D32;
+
+        @media screen and (max-width: 480px) {
+font-size: 36px;
+        }
+
+    }
+
+    &__p1 {
+
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 40px;
+        /* or 182% */
+
+
+        color: #78847D;
+
+        @media screen and (max-width: 480px) {
+            font-size: 16px;
+                    }
+    }
+
+    &__a1 {
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.02em;
+        text-decoration-line: underline;
+
+        color: #A3B938;
+
+        @media screen and (max-width: 480px) {
+            font-size: 16px;
+                    }
+    }
+
+    &__main{
+        @media screen and (max-width: 480px) {
+           text-align: center; 
+        }
+    }
+}
